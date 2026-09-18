@@ -8,3 +8,6 @@ Share project files to showcase
 
 **Fitness Tracker**
 Logs user's fitness
+
+**Recipe Book**
+Recipes, Shopping List, Ingredient List
