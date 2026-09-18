@@ -1,0 +1,29 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover,
+a:active {
+  color: lightgrey;
+}
+
+.nav-item-content {
+  display: flex;
+  align-items: center;
+}
+
+.nav-caption {
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 0;
+}
+
+button mat-icon,
+button .nav-caption {
+  font-weight: 400;
+  color: #000000de;
+}
