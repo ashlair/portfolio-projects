@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+table {
+  border: 0px;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid #dddddd;
+
+  .mat-header-cell {
+    font-size: 14px;
+  }
+
+  .mat-cell {
+    font-size: 12px;
+  }
+
+  &:nth-child(even) {
+    background-color: #A6A6A6;
+
+    .mat-cell {
+      color: #000;
+    }
+
+    a {
+      color: #000;
+    }
+  }
+
+  &:nth-child(odd) {
+    background-color: rgb(66, 66, 66);
+  }
+
+  th, td {
+    text-align: left;
+    padding: 5px 10px;
+
+    a {
+      color: #fff;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+  }
+}
+
+.mat-form-field-appearance-legacy .mat-form-field-label {
+  color: #000;
+}
+
+.mat-flat-button {
+  margin: 10px 10px 10px 0 !important;
+}
